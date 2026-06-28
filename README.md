@@ -3,7 +3,7 @@
 Systems Reliability & Release Engineering Leader
 Release Engineering | Release Governance | Unix/Linux | Infrastructure Operations
 
-I help complex systems become more reliable.
+I make complex systems become more reliable.
 
 My background spans systems reliability, release engineering, release governance, Unix/Linux infrastructure, build and release automation, technical documentation, and operational coordination. Across those areas, the pattern has been consistent: identify hidden assumptions, reduce operational risk, and turn ambiguity into repeatable, accountable process.
 
@@ -31,7 +31,7 @@ I spent more than a decade leading FreeBSD release engineering, coordinating 23 
 
 ## What I am looking for
 
-I am interested in roles where I can help make complex systems more reliable, releases more predictable, and engineering processes easier to trust.
+I am interested in roles where I can make complex systems more reliable, releases more predictable, and engineering processes easier to trust.
 
 Good fits include:
 
