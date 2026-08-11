@@ -1,53 +1,35 @@
 # Glen Barber
 
-Systems Reliability & Release Engineering Leader
-Release Engineering | Release Governance | Unix/Linux | Infrastructure Operations
+Release Engineering Lead | Platform Engineering | DevOps | Infrastructure Automation
 
-I make complex systems become more reliable.
+I make complex systems more reliable, and releases more predictable.
 
-My background spans systems reliability, release engineering, release governance, Unix/Linux infrastructure, build and release automation, technical documentation, and operational coordination. Across those areas, the pattern has been consistent: identify hidden assumptions, reduce operational risk, and turn ambiguity into repeatable, accountable process.
-
-I spent more than a decade leading FreeBSD release engineering, coordinating 23 production operating system releases across contributors, infrastructure, build systems, validation, documentation, security handling, release readiness, release schedules, and public communication. That work required technical judgment, careful change control, cross-functional coordination, and a deep respect for user trust.
+While employed at The FreeBSD Foundation and later at Netgate, I served as Release Engineering Team Lead for the FreeBSD Project from 2014 through 2023. In that role I shipped 23 production releases, 20 of them under my direct end-to-end ownership, for an operating system running in production at banks, storage vendors, network equipment manufacturers, and across public internet infrastructure. The work meant owning release governance, change control, build and artifact pipelines, and public communication, and it required turning ambiguity into repeatable, accountable process.
 
 ## Areas of focus
 
-- Systems reliability and operational readiness
 - Release engineering and release governance
-- Build and release automation
-- Unix/Linux and FreeBSD systems
-- Infrastructure operations
-- Change control and release readiness
-- Technical documentation and process design
-- Risk assessment, failure analysis, and reducing tribal knowledge
+- Platform reliability and reproducible builds
+- Change management and incident response
+- Build and release automation, CI/CD architecture
+- Unix/Linux and FreeBSD systems, ZFS, jails
+- Infrastructure as code and configuration management
+- Risk assessment and go/no-go decision frameworks
+- Technical documentation, mentorship, and succession planning
 
 ## Selected background
 
-- Former FreeBSD Release Engineering Lead
-- Coordinated 23 production FreeBSD releases
-- Longtime FreeBSD contributor
-- Experience with large-scale open source release processes
-- Background coordinating technical work across engineering, infrastructure, QA, documentation, security, and operations
-- Built and evolved release tooling, documentation, and governance practices to improve repeatability, visibility, and release integrity
+- Release Engineering Team Lead, FreeBSD Project, 2014-2023
+- Led release engineering for FreeBSD 8.4 through 14.0, with direct end-to-end responsibility for 20 releases
+- Authored the release build automation still in use by the project's Release Engineering Team, published standalone as [Thermite](https://thermite.sh)
+- Developed two deputy leads over the decade and executed a planned handover, formally acknowledged by the project's governing body
+- FreeBSD Project Committer, 2010-2023, with full commit access across Source, Ports, and Documentation
+- Also served on the FreeBSD Security Team and Cluster Administration Team
 
 ## What I am looking for
 
-I am interested in roles where I can make complex systems more reliable, releases more predictable, and engineering processes easier to trust.
-
-Good fits include:
-
-- Release Engineering
-- Systems Reliability
-- Infrastructure Operations
-- Release Governance
-- Site Reliability Engineering
-- Platform Engineering
-- Build / Packaging Engineering
-- Open Source Infrastructure
-- Developer Experience / Tooling
-- Technical Operations Leadership
+I am interested in senior release engineering, platform engineering, and technical operations roles where ownership, reliability, and reproducibility are the job, not a side effect of it.
 
 ## Contact
 
-For professional inquiries, please reach out via LinkedIn:
-
-https://www.linkedin.com/in/glenjbarber
+- LinkedIn: <https://www.linkedin.com/in/glenjbarber>
