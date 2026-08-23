@@ -26,6 +26,7 @@ The work meant owning release governance, change control, build and artifact pip
 - Authored the release build automation still in use by the project's Release Engineering Team, published standalone as [Thermite](https://thermite.sh)
 - Developed two deputy leads over nearly a decade and executed a planned handover, formally acknowledged by the project's governing body
 - FreeBSD Project Committer, 2010-2023, with full commit access across Source, Ports, and Documentation
+- 6,600+ commits and 2,600+ change approvals granted to other developers across Source, Ports, and Documentation ([commit history](https://github.com/freebsd/freebsd-src/commits?author=glenjbarber))
 - Also served on the Documentation Engineering, Security, and Cluster Administration Teams
 
 ## What I am looking for
