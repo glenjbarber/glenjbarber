@@ -4,7 +4,9 @@ Release Engineering Lead | Platform Engineering | DevOps | Infrastructure Automa
 
 I make complex systems more reliable, and releases more predictable.
 
-While employed at The FreeBSD Foundation and later at Netgate, I served as Release Engineering Team Lead for the FreeBSD Project from 2014 through 2023. In that role I shipped 23 production releases, 20 of them under my direct end-to-end ownership, for an operating system running in production at banks, storage vendors, network equipment manufacturers, and across public internet infrastructure. The work meant owning release governance, change control, build and artifact pipelines, and public communication, and it required turning ambiguity into repeatable, accountable process.
+While employed at The FreeBSD Foundation and later at Netgate, I served as Release Engineering Team Lead for the FreeBSD Project from 2014 through 2023.
+In that role I shipped 23 production releases, 20 of them under my direct end-to-end ownership, for an operating system running in production at banks, storage vendors, network equipment manufacturers, and across public internet infrastructure.
+The work meant owning release governance, change control, build and artifact pipelines, and public communication, and it required turning ambiguity into repeatable, accountable process.
 
 ## Areas of focus
 
