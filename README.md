@@ -29,6 +29,13 @@ The work meant owning release governance, change control, build and artifact pip
 - 6,600+ commits and 2,600+ change approvals granted to other developers across Source, Ports, and Documentation ([commit history](https://github.com/freebsd/freebsd-src/commits?author=glenjbarber))
 - Also served on the Documentation Engineering, Security, and Cluster Administration Teams
 
+## Projects
+
+- **[Thermite](https://thermite.sh)** — the FreeBSD release build automation, published standalone.
+  Configuration-driven build matrix engine handling isolated release builds, artifact staging, checksum reporting, and cloud image publication.
+- **[mailtools](https://github.com/glenjbarber/mailtools)** (2026) — utilities for large-scale Maildir migration and integrity verification.
+  Applied to a 26-year, 2.34-million-message archive: per-month foldering, timestamp reconstruction from message headers, and a manifest-driven apply, verify, and rollback workflow.
+
 ## What I am looking for
 
 I am interested in senior release engineering, platform engineering, and technical operations roles where ownership, reliability, and reproducibility are the job, not a side effect of it.
