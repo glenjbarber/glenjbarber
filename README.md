@@ -24,7 +24,7 @@ The work meant owning release governance, change control, build and artifact pip
 - Release Engineering Team Lead, FreeBSD Project, 2014-2023
 - Led release engineering for FreeBSD 8.4 through 14.0, delivering 22 production releases
 - Authored the release build automation still in use by the project's Release Engineering Team, published standalone as [Thermite](https://thermite.sh)
-- Developed two deputy leads over the decade and executed a planned handover, formally acknowledged by the project's governing body
+- Developed two deputy leads over nearly a decade and executed a planned handover, formally acknowledged by the project's governing body
 - FreeBSD Project Committer, 2010-2023, with full commit access across Source, Ports, and Documentation
 - Also served on the Documentation Engineering, Security, and Cluster Administration Teams
 
