@@ -23,12 +23,12 @@ The work meant owning release governance, change control, build and artifact pip
 
 - Release Engineering Team Lead, FreeBSD Project, 2014-2023
 - Led release engineering for FreeBSD 8.4 through 14.0, delivering 22 production releases
+- Carried release engineering through the project's 2020 migration from Subversion to Git without interrupting the release cadence;
+  13.0 was the first major release produced from the Git repository
 - Developed two deputy leads over nearly a decade and executed a planned handover, formally acknowledged by the project's governing body
 - FreeBSD Project Committer, 2010-2023, with full commit access across Source, Ports, and Documentation
 - 6,600+ commits and 2,600+ change approvals granted to other developers across Source, Ports, and Documentation ([commit history](https://github.com/freebsd/freebsd-src/commits?author=glenjbarber))
 - Also served on the Documentation Engineering, Security, and Cluster Administration Teams
-- Carried release engineering through the project's 2020 migration from Subversion to Git without interrupting the release cadence;
-  13.0 was the first major release produced from the Git repository
 
 ## Projects
 
