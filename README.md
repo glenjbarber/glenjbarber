@@ -34,6 +34,9 @@ The work meant owning release governance, change control, build and artifact pip
 
 ## Projects
 
+- **Apiary** (in progress) — a FreeBSD-native virtualization management platform for cluster management, VM and container orchestration, and storage replication.
+  Go across the stack, built around bhyve and jails, with a dedicated raft-based consensus agent and ZFS/HAST-backed replication.
+  Early development: architecture and API contracts are being settled before implementation begins in earnest.
 - **[Thermite](https://thermite.sh)** (2013-2023) — the FreeBSD release build automation, published standalone.
   Configuration-driven build matrix engine handling isolated release builds, artifact staging, checksum reporting, and cloud image publication.
 - **[mailtools](https://github.com/glenjbarber/mailtools)** (2026) — utilities for large-scale Maildir migration and integrity verification.
