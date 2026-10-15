@@ -41,6 +41,8 @@ The work meant owning release governance, change control, build and artifact pip
   Configuration-driven build matrix engine handling isolated release builds, artifact staging, checksum reporting, and cloud image publication.
 - **[mailtools](https://github.com/glenjbarber/mailtools)** (2026) — utilities for large-scale Maildir migration and integrity verification.
   Applied to a 26-year, 2.34-million-message archive: per-month foldering, timestamp reconstruction from message headers, and a manifest-driven apply, verify, and rollback workflow.
+- **[orcli](https://github.com/glenjbarber/orcli)** (2026-present) — terminal interface for OpenRouter AI-assisted development.  Working terminal client for the OpenRouter API with a full-screen interactive chat interface; 14K lines of Go with 680+ tests and four direct dependencies.  Uses tcell and tview for terminal interaction; the OpenRouter client uses a standard-library HTTP client and SSE stream parser.  Model tool execution (filesystem, git, shell) is contained by open descriptors instead of path-prefix checks, under a three-level permission model; sessions persist to SQLite.  Cross-builds for macOS, Linux, FreeBSD, OpenBSD, and NetBSD on amd64 and arm64.
+- **[openrouter-cli](https://github.com/glenjbarber/openrouter-cli)** (2026-present) — enhanced command-line interface for the OpenRouter AI platform with argument completion support, notmuch integration for email search, and improved shell allowlist management.  Features include posArgument completion type, WithArguments method for merging argument sets, and design documentation updates.
 
 ## What I am looking for
 
