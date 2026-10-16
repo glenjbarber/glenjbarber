@@ -4,7 +4,7 @@ Release Engineering Leader | Platform Engineering | Infrastructure Automation | 
 
 I make complex systems more reliable, and releases more predictable.
 
-Find me on ([Every Expert](https://www.facebook.com/ApiaryVE/posts/pfbid02u46PkBLr9ja7jDfu8hEVgmPkVh6cdcJfkqdZLpvkmBMx7jmtx5gcyFyFkP4zKEkFl))
+Find me on [Every Expert](https://www.facebook.com/ApiaryVE/posts/pfbid02u46PkBLr9ja7jDfu8hEVgmPkVh6cdcJfkqdZLpvkmBMx7jmtx5gcyFyFkP4zKEkFl)
 
 I am a release engineering and infrastructure leader with 17 years across Unix platform operations, including 9 years owning FreeBSD release engineering.
 While employed at The FreeBSD Foundation and later at Netgate, I served as FreeBSD Project Release Engineering Team Lead from March 2014 through November 2023, closing with 14.0-RELEASE.
