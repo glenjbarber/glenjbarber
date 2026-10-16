@@ -1,3 +1,7 @@
+<p align="center">
+  <script src="https://www.everyexpert.com/embed/glenjbarber.js" data-theme="dark"></script>
+</p>
+
 # Glen Barber
 
 Release Engineering Leader | Platform Engineering | Infrastructure Automation | Release Governance
