@@ -1,6 +1,4 @@
-<p align="center">
-  <script src="https://www.everyexpert.com/embed/glenjbarber.js" data-theme="dark"></script>
-</p>
+[![Book a consultation on Every Expert](https://img.shields.io/badge/Every%20Expert-Book%20a%20consultation-222222?style=for-the-badge)](https://www.everyexpert.com/glenjbarber)
 
 # Glen Barber
 
