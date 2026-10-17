@@ -1,58 +1,60 @@
-[![Book a consultation on Every Expert](https://img.shields.io/badge/Every%20Expert-Book%20a%20consultation-222222?style=for-the-badge)](https://www.everyexpert.com/glenjbarber)
-
 # Glen Barber
 
-Release Engineering Leader | Platform Engineering | Infrastructure Automation | Release Governance
+**Release Engineering | Platform Engineering | Distributed Systems | Build Infrastructure**
 
-I make complex systems more reliable, and releases more predictable.
+I build and operate complex systems, make software delivery more predictable, and work to eliminate the failure modes that make infrastructure difficult to trust.
 
-Find me on [Every Expert](https://www.everyexpert.com/glenjbarber)
+I have 17 years of Unix and infrastructure engineering experience, including nearly a decade as the FreeBSD Project Release Engineering Team Lead (2014-2023). My work has spanned multi-architecture build infrastructure, operating system releases, package creation, cloud image delivery, security-sensitive release coordination, and technical leadership across distributed contributors.
 
-I am a release engineering and infrastructure leader with 17 years across Unix platform operations, including nearly a decade leading FreeBSD release engineering.
-While employed at The FreeBSD Foundation and later at Netgate, I served as FreeBSD Project Release Engineering Team Lead from March 2014 through November 2023, closing with 14.0-RELEASE.
-Across that period I managed production releases across concurrently supported major branches, including 11.3 through 13.2 while at Netgate and 8.4 through 12.0 while at the Foundation.
-The work meant owning release governance, change control, build and artifact pipelines, and public communication, and it required turning ambiguity into repeatable, accountable process.
+Today, I am building Go-based infrastructure and developer tooling, with particular interest in distributed systems, reliability engineering, and practical, accountable use of AI coding agents.
 
-## Areas of focus
+## Current projects
 
-- Release engineering and release governance
-- Platform reliability and reproducible builds
-- Change management and incident response
-- Build and release automation, CI/CD architecture
-- Unix/Linux and FreeBSD systems, ZFS, jails, bhyve, and pf
-- Go, gRPC/Protocol Buffers, Raft consensus, and distributed systems
-- Cloud image delivery, Kubernetes-ready infrastructure, and observability
-- Infrastructure as code and configuration management
-- Risk assessment and go/no-go decision frameworks
-- Technical documentation, mentorship, and succession planning
+### [Apiary](https://github.com/glenjbarber/apiary)
 
-## Selected background
+A FreeBSD-native virtualization and cluster management platform, under active development. Apiary coordinates bhyve virtual machines and FreeBSD jails using Go services, a dedicated Raft consensus process, gRPC APIs, and an HTMX-based interface. It integrates ZFS-backed provisioning, HAST replication, cluster health reporting, recovery controls, and Kubernetes-oriented infrastructure.
 
-- Software Release Engineer, Netgate, 2019-2023, continuing as FreeBSD Project Release Engineering Team Lead under employer-allocated time, a provision written into the job description at hire
-- Systems Administrator, The FreeBSD Foundation, 2013-2019, becoming FreeBSD Project Release Engineering Team Lead in March 2014
-- Managed overlapping FreeBSD release schedules across multiple supported branches, with release readiness, change approval, build delivery, and downstream compatibility commitments
-- Carried release engineering through the project's Subversion to Git migration in December 2020, converting the release automation and branching, tagging, and change-approval workflows to Git without interrupting the release cadence; 13.0 was the first major release produced from the Git repository
-- Developed two deputy leads over nearly a decade and executed a planned handover, formally acknowledged by the project's governing body
-- Coordinated security-sensitive release work, risk-based change decisions, and recovery from critical release blockers
-- FreeBSD Project Committer, September 2010-December 2023, with full commit access across Source, Ports, and Documentation
-- 6,600+ commits and 2,600+ change approvals granted to other developers across Source, Ports, and Documentation ([commit history](https://github.com/freebsd/freebsd-src/commits?author=glenjbarber))
-- Also served on the Documentation Engineering, Security, and Cluster Administration Teams
-- Independent contract engagement (Jan-Apr 2024): built an IoT device monitoring proof of concept for a connected-device manufacturer on Google Compute Engine, FreeBSD 14, service isolation via jails, Zabbix backed by PostgreSQL/TimescaleDB, and a Python integration for device telemetry, delivered with full documentation inside a fixed budget
+The project is developed and tested against real FreeBSD systems. Its architecture and implementation trade-offs are recorded in [architecture decision records](https://github.com/glenjbarber/apiary/tree/main/docs/adr).
 
-## Projects
+### [orcli](https://github.com/glenjbarber/orcli)
 
-- **[Apiary](https://github.com/glenjbarber/apiary)** (2026-present) — a FreeBSD-native virtualization management platform for cluster management, VM and container orchestration, and storage replication.
-  Go across the stack, built around bhyve and jails, with a dedicated raft-based consensus agent, ZFS and HAST-backed replication, and an HTMX web frontend with a live browser console into each VM.
-  Active development against real FreeBSD hardware: raft consensus, node management, VM and jail lifecycle, and cross-node console tunnelling and failover all working end to end. Work includes Go services, gRPC APIs, security hardening, recovery controls, and Kubernetes-ready VM images.
-- **[Thermite](https://thermite.sh)** (2013-2023) — the FreeBSD release build automation, published standalone.
-  Configuration-driven build matrix engine handling isolated release builds, artifact staging, checksum reporting, and cloud image publication.
-- **[mailtools](https://github.com/glenjbarber/mailtools)** (2026) — utilities for large-scale Maildir migration and integrity verification.
-  Applied to a 26-year, 2.34-million-message archive: per-month foldering, timestamp reconstruction from message headers, and a manifest-driven apply, verify, and rollback workflow.
+A pre-release, full-screen terminal client for AI-assisted engineering. Written in Go, orcli supports the OpenRouter and Liquid Console inference APIs, persistent SQLite sessions, permission-controlled filesystem/git/shell tools, and integrations including MCP, GitHub, Notion, and Apiary.
+
+The design emphasizes explicit trust boundaries, controlled tool execution, testable behavior, and transparency about incomplete functionality. It is a working pre-release project, not a finished product.
+
+### [Thermite](https://thermite.sh)
+
+The open-source FreeBSD release automation framework I designed and maintained. Thermite uses configuration-driven, isolated, ZFS-backed build environments for multi-architecture release builds, artifact staging, checksums, and cloud image publication.
+
+## Engineering focus
+
+- **Build and release systems:** reproducible builds, CI/CD architecture, release governance, package infrastructure, artifact distribution, and delivery pipelines.
+- **Distributed infrastructure:** Go, gRPC/Protocol Buffers, Raft, ZFS, HAST, bhyve, FreeBSD jails, and operational recovery.
+- **Reliability and security:** failure analysis, incident response, observability, change control, risk assessment, and security-sensitive delivery.
+- **Engineering leadership:** architectural decision-making, technical documentation, mentoring, roadmap trade-offs, and coordination without direct authority.
+- **AI-assisted development:** agentic coding workflows, tool permissions, integration design, and practical verification of generated changes.
+
+## FreeBSD and open source
+
+I served as a [FreeBSD Project Committer](https://github.com/freebsd) from September 2010 through December 2023, with contributions across Source, Ports, and Documentation. I led Release Engineering from March 2014 through November 2023, concluding with 14.0-RELEASE.
+
+My FreeBSD work included:
+
+- Coordinating production releases across simultaneously supported major branches and distributed contributors.
+- Designing release automation and maintaining build and artifact delivery infrastructure.
+- Adapting release engineering processes during the project's Subversion-to-Git migration without interrupting the release cadence.
+- Coordinating security-sensitive release work, change approvals, and high-impact release decisions.
+- Mentoring deputy leads and completing a planned leadership transition.
+- Contributing to the Documentation Engineering, Security, and Cluster Administration Teams.
+
+My project history includes more than 6,600 commits and 2,600 change approvals across FreeBSD Source, Ports, and Documentation. The underlying work is publicly traceable through FreeBSD repositories and project records.
 
 ## What I am looking for
 
-I am interested in senior release engineering, platform engineering, and technical operations roles where ownership, reliability, and reproducibility are the job, not a side effect of it.
+I am interested in Principal, Staff, and senior individual-contributor roles in platform engineering, release engineering, build infrastructure, distributed systems, and infrastructure reliability. I am particularly drawn to teams where architectural judgment, operational accountability, and hands-on engineering belong together.
 
-## Contact
+## Connect
 
-- LinkedIn: <https://www.linkedin.com/in/glenjbarber>
+- [LinkedIn](https://www.linkedin.com/in/glenjbarber)
+- [GitHub repositories](https://github.com/glenjbarber)
+- [Book a consultation on Every Expert](https://www.everyexpert.com/glenjbarber)
