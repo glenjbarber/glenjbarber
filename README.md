@@ -2,11 +2,11 @@
 
 **Release Engineering | Platform Engineering | Distributed Systems | Build Infrastructure**
 
-I build and operate complex systems, make software delivery more predictable, and work to eliminate the failure modes that make infrastructure difficult to trust.
+I build infrastructure software with reliability, recovery, and operational consequences in mind. My current work in Go and FreeBSD brings together virtualization, distributed coordination, storage, and developer tooling.
 
-I have 17 years of Unix and infrastructure engineering experience, including nearly a decade as the FreeBSD Project Release Engineering Team Lead (2014-2023). My work has spanned multi-architecture build infrastructure, operating system releases, package creation, cloud image delivery, security-sensitive release coordination, and technical leadership across distributed contributors.
+That approach comes from nearly a decade leading FreeBSD production release engineering. Release leadership meant deciding what needed to change, which risks justified a delay, and when software was actually ready to ship. I created release automation, coordinated contributors across major branches, and remained accountable for the resulting artifacts.
 
-Today, I am building Go-based infrastructure and developer tooling, with particular interest in distributed systems, reliability engineering, and practical, accountable use of AI coding agents.
+Before that, I built and operated the Unix infrastructure behind software delivery. Seventeen years of hands-on systems work taught me to recognize failure modes, not just implement fixes. I bring those layers together today: identify the problem that matters, make a defensible technical decision, and build something repeatable and recoverable.
 
 ## Current projects
 
@@ -55,7 +55,7 @@ My project history includes more than 6,600 commits and 2,600 change approvals a
 
 ## What I am looking for
 
-I am interested in Principal, Staff, and senior individual-contributor roles in platform engineering, release engineering, build infrastructure, distributed systems, and infrastructure reliability. I am particularly drawn to teams where architectural judgment, operational accountability, and hands-on engineering belong together.
+I am interested in Staff, Principal, and senior engineering roles spanning release engineering, platform infrastructure, build systems, distributed systems, and reliability. I do my best work where technical judgment and hands-on implementation are inseparable: defining the right problem, understanding the operational risk, and following through on delivery.
 
 ## Connect
 
